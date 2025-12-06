@@ -146,7 +146,7 @@ input_df = pd.DataFrame(input_data)
 
 # ========================
 # History
-# ========================
+# ========================      
 if "history" not in st.session_state:
     st.session_state.history = pd.DataFrame(columns=list(input_df.columns)+["Other_Units","Predicted_Bill","Previous_Bill"])
 
